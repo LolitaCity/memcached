@@ -34,7 +34,7 @@ class MEMADMIN {
 	 * check the memcache module is loaded
 	 */
 	function checkmemsuport() {
-		if (!extension_loaded('memcache')||!extension_loaded('memcached')) {
+		if (!extension_loaded('memcache')) {
 			require_once('./views/nomemsupport.php');
 			exit;
 		}
