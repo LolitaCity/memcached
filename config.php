@@ -5,22 +5,6 @@ $config['user'] = "admin"; // your username
 $config['passwd'] = "admin"; // your password
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // set the font and font-size in different languages
 function set_font($t) {
 	if ($t == 'body') {
